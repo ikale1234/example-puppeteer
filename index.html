@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Meeting Minutes April 9</title>
+    <meta name="Ishaan Kale" content="width=device-width, initial-scale=1.0" >
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="i_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
+    
+  </head>
+  <body>
+    <header>
+        <h1>Meeting Minutes April 9</h1>
+        <nav>
+            <ul>
+                <li><a href="#meeting-summary">Meeting Summary</a></li>
+                <li><a href="#quick-intermission">Quick Intermission</a></li>
+                <li><a href="#tasks-for-the-week">Tasks for the Week</a></li>
+            </ul>
+        </nav>
+        <h2>Attendees:</h2>
+        <ul class="people">
+            <li>Draymond Green</li>
+            <li>Ishaan Kale</li>
+            <li>Joe Biden</li>
+        </ul>
+    </header>
+
+    <section>
+        <h2>Meeting Summary</h2>
+        <p id="sum-intro">This section will briefly summarize the main points of the meeting</p>
+        <div id="meeting-summary">
+        <ol>
+            <li>Started off with a quick <b>prayer</b> towards <span>Lebron James</span></li>
+            <li>Discussed what everyone did over the past week in relation to their to do items</li>
+            <li>Discussed the great legacy of <strong>Lebron James</strong></li>
+            <li class="future">Made predictions for the <i>future</i> of <em>Lebron James</em></li>
+            <li style="color: red;">During discussion time, no comments/concerns/questions were brought up</li>
+            <li>Ended off with another prayer toward <a href="lebron.jpeg">Lebron James</a></li>
+        </ol>
+        </div>
+    </section>
+
+    <section>
+        <h3>Quick Intermission</h3>
+        <div id="quick-intermission">
+        <details>
+            <summary>Lebron James</summary>
+            <p>6 foot 9, 250 pounds, truly an inspirational and talented being, and the greatest basketball player in history</p>
+        </details>
+        <div class="images">
+        <img src="lebron.jpeg" alt="Lebron James" id="great">
+        <img src="coolthing.jpeg" alt="Lebron James" id="big">
+        <img src="lebron.jpeg" alt="Lebron James" id="great">
+        </div>
+    </div>
+    </section>
+
+    <section>
+        <h2>Tasks for the Week</h2>
+        <div id="tasks-for-the-week">
+        <p id="sum-intro">It is imperative that you complete these tasks by the next meeting on April 16</p>
+        <hr>
+        <ol>
+            <li>Listen to this inspirational audio:
+            <audio controls>
+                <source src="confidence.mp3" type="audio/mpeg">
+                Your browser does not support the audio element."
+            </audio>
+        </li>
+            <li>Watch this groundbreaking video:
+            <video controls width="640" height="360">
+                <source src="amazing.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </li>
+            <li>Fill out the following form:
+            <form action="/submit_form" method="post">
+                <h2>PLZ FILL OUT !!!!</h2>
+                <fieldset>
+                    <legend>Basic Info</legend>
+                    <div id="basic">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br>
+        
+                    <label for="email">School Email:</label>
+                    <input type="text" id="email" name="email" required><br>
+
+                    <label for="bday">Birth Day:</label>
+                    <input type="date" id="bday" name="bday" required><br>
+                </div>
+                    <h3>Gender:</h3>
+                        <label for="male">Male:</label>
+                        <input type="radio" id="male" name="gender" value="male" required>
+
+                        <label for="female">Female:</label>
+                        <input type="radio" id="female" name="gender" value="female" required><br>
+        
+                    <label for="desc">Quick Self Description:</label><br>
+                    <textarea id="desc" name="desc" rows="3" cols="50" required></textarea><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Important Questions</legend>
+
+                    <p>Is Lebron James your favorite player?:</p>
+                    <br>
+                    <label for="agree">Yes</label>
+                    <input type="checkbox" id="agree" name="agree" value="yes">
+                    <label for="yes">Yes</label>
+                    <input type="checkbox" id="yes" name="yes" value="yes">
+                    <br>
+
+                        <label for="teams">Choose favorite Lebron Version:</label>
+                            <input list="team" id="teams" name="teams">
+                            <datalist id="team">
+                                <option value="Cavs 1">
+                                <option value="Heat">
+                                <option value="Cavs 2">
+                                <option value="Lakers">
+                            </datalist>
+
+                        <label for="jersey">Choose favorite jersey number:</label>
+                            <select id="jersey" name="jersey">
+                                <option value="6">6</option>
+                                <option value="23">23</option>
+                            </select>
+                        
+                </fieldset>
+
+                <button type="button" onclick="alert('Submitted Form')">Submit</button>
+                    
+                
+
+            </form>
+        </li>
+
+        </ol>
+
+    </div>
+    <div id="hide">
+        <p>This text will be hidden</p>
+    </div>
+    </section>
+
+    <footer>
+        <p>This concludes the meeting minutes document for 4/9</p>
+    </footer>
+  </body>
+</html>
